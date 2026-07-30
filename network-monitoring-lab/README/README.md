@@ -31,7 +31,7 @@ This project is a cloud-based network monitoring system built using AWS EC2, Pro
                 AWS EC2 (Ubuntu)
         ┌─────────────────────────┐
         │ Prometheus              │
-        │ Grafana                 │
+        │ Grafana                 │──────────────► Discord
         │ Blackbox Exporter       │
         └───────────┬─────────────┘
                     │
@@ -41,8 +41,6 @@ This project is a cloud-based network monitoring system built using AWS EC2, Pro
         │ Raspberry Pi 5          │
         │ Node Exporter           │
         └─────────────────────────┘
-                    │
-              Discord Alerts
 ```
 ## 🚨 Alerting Logic
 The system includes two alert types:
